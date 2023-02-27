@@ -5,7 +5,7 @@ import DataCollection from '../DataCollection/DataCollection';
 
 const Card = () => {
 
-    const { data: photos, isLoading } = useQuery('photos', () => fetch('https://project-x-9gpx.onrender.com/photo').then(res => res.json()));
+    const { data: photos, isLoading } = useQuery('photos', () => fetch('https://project-x-server.onrender.com/photo').then(res => res.json()));
     if (isLoading) {
         return <Loading></Loading>
     }
