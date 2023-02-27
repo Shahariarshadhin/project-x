@@ -1,0 +1,35 @@
+.cardDesign{
+    border-radius: 6% 97% 0% 100% / 100% 50% 50% 0%;
+    background-color: white;
+   
+    
+}
+
+.cardDesign:hover{
+    transform: scaleY(1.2) ;
+    
+    
+}
+
+.btn{
+    width: 295px;
+    height: 48px;
+    left: 458px;
+    top: 473px;
+    background: #DA2348;
+    border-radius: 15px;
+    border: none;
+    justify-items: center;
+}
+
+.btn {
+    display: none;
+    
+  }
+      
+.cardDesign:hover  .btn {
+    
+    display: block;
+    
+  }
+
